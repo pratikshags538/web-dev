@@ -7,16 +7,22 @@
 </head>
 <body class="bg-pink-900 flex justify-center items-center min-h-screen" >
     <div class="bg-pink-200 rounded-lg p-8 shadow-lg max-w-sm w-full">
-        <h1 class="text-3xl text-center font-bold mb-6">Login</h1>
+        <h1 class="text-3xl text-center font-bold mb-6 text-pink-900">Login</h1>
         <form action="">
             <div class="">
-                <label for="">Email</label>
-                <input type="email" name="" placeholder="Email" id="">
+                <label for="" class="block text-sm mb-2">Email</label>
+                <input type="email" name="" placeholder="Email" id="" 
+                class="w-full py-2 px-3 bg-pink-700 rounded-2xl 
+                focus:outline none  border-2 border-pink-900">
             </div>
             <div class="">
-                <label for="">Password</label>
-                <input type="password" name="" placeholder="password" id="">
+                <label for="" class="block text-sm mb-2">Password</label>
+                <input type="password" name="" placeholder="Password" id="" 
+                class="w-full py-2 px-3 bg-pink-700 rounded-2xl focus:outline none border-2 border-pink-900">
             </div>
+            <button type="submit" class="w-full py-1 px-3 mt-3 bg-pink-900">
+                Login
+            </button>
         </form>
     </div>
 </body>
