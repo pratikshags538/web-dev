@@ -1,0 +1,47 @@
+nav{
+  padding: 0px,0px;
+  background-color: #8676b4;
+}
+
+
+span{
+  font-family: 'Tinos', serif;
+}
+
+span span{
+  font-family: 'Lobster', sans-serif;
+}
+
+#title{
+    display: flex;
+}
+
+.gradient-background{
+    background: linear-gradient(300deg, rgb(132, 95, 132),rgb(139, 106, 139),#8676b4,rgb(168, 119, 119));
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;  
+}
+/* rgb(201, 111, 111), rgb(139, 106, 139) ,rgb(115, 62, 71), rgb(191, 138, 138) */
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+img{
+    border-radius: 5%;
+}
+
+h2.display-5{
+  margin-bottom: 0px;
+}
+
+.lead{
+  padding-bottom: 20px;
+}
