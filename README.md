@@ -10,3 +10,5 @@ Project 3 - Drums - Javascript EventListeners
 Project 4 - Fashion Fusion - Bootstrap
 
 Project 5 - ToDoList - functional page using javascript
+
+Project 6 - Simon game - javascript + jquery
